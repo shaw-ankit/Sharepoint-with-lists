@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "my-fluent-project-client-side-solution",
+    "id": "93e3cf55-79d0-4f88-b154-b5699562387e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "my-fluent-project description"
+      },
+      "longDescription": {
+        "default": "my-fluent-project description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "my-fluent-project Feature",
+        "description": "The feature that activates elements of the my-fluent-project solution.",
+        "id": "8d88926b-2fe4-4d05-8c9f-60247d3d3e6f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/my-fluent-project.sppkg"
+  }
+}
